@@ -1,5 +1,6 @@
 import React from 'react';
 import IPhone from "../assets/images/iphone-14.jpg"
+import HoldingIPhone from "../assets/images/iphone-hand.png"
 
 function Jumbtron() {
     return (  
@@ -14,6 +15,7 @@ function Jumbtron() {
                 <li><button className='button'>Buy</button></li>
                 <li><a className='link'>Learn more</a></li>
             </ul>
+            <img className='iphone-img' src={HoldingIPhone} alt="Person holding iPhone"/>
         </div>
     );
 }
